@@ -1,0 +1,171 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+:root {
+    --vermelho: red;
+    --cinzafundo: rgba(56, 55, 55);
+    --pretoaula: rgb(0, 0, 0, 0.952);
+    --branco: rgb(255, 255, 255);
+    --brancoescuro: rgba(255, 255, 255, 0.854);
+    --cinzaaula: rgb(0, 0, 0, 0.952);
+    --branco: white;
+    --preto: black;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav1 a{
+    color: white;
+    padding-left: 40px;
+    font-size: 15px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+
+}
+
+header .nav1 a:hover {
+    text-decoration: underline;
+}
+
+header button {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 20px;
+    background-color: white;
+    border: none;
+    color: black;
+    font-weight: bolder;
+}
+
+body {
+    background-color: var(--cinzafundo);
+}
+
+.titulo {
+    text-align: center;
+    font-size: 2em;
+    color: var(--branco);
+}
+
+.titulo1 {
+    font-size: 3em;
+    text-align: center;
+    color: var(--vermelho);
+}
+
+.nomeaula {
+    color: var(--vermelho);
+    font-size:150%;
+    padding-right: ;
+    text-align: center;
+}
+
+.aulas {
+    font-weight: bolder;
+    color: var(--branco);
+    text-align: center;
+}
+
+.programas {
+    color: var(--brancoescuro);
+}
+
+.quadradoaulas {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 10px;
+    justify-content: space-around;
+    
+}
+
+.quadradoaulas div {
+    background-color: var(--pretoaula);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.quadradoaulas .div2 {
+    padding-right: 1px;
+}
+
+.botao{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: red;
+    color:white;
+    transition: 0.3s ease, 0.3s ease;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    
+}
+.botao:hover{
+    transform: scale(1.05);
+    background-color: salmon;
+}
+
+footer {
+    background: black;
+    margin-top: 20px;
+}
+
+body footer .div3 {
+    color: white;
+    display: flex;
+}
+
+body footer .div3 a {
+    color: white;
+}
+
+body footer .div3 .ul1 {
+    
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+}
+
+body footer .div3 .ul2 {
+    padding-left: 50px;
+    padding-top: 5px;
+}
+
+body footer .div3 .ul1 li {
+    padding-top: 10px;
+}
+
+body footer .div3 .ul2 li {
+    padding-top: 2px;
+}
+
+body footer .div3 .imagens {
+    display: flex;
+    gap: 40px;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+body footer .div3 .imagens img{
+    width: 30px;
+}
+
+body footer .div3 .imagens img:hover {
+    width: 30px;
+    transform: scale(1.2);
+}

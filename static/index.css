@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+:root {
+    --branco: white;
+    --preto: black;
+    --vermelho: red;
+}
+
+
+header {
+    display: flex;
+    background-color: black;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav1 a{
+    color: white;
+    padding-left: 40px;
+    font-size: 15px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+
+}
+
+header .nav1 a:hover {
+    text-decoration: underline;
+}
+
+header button {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 20px;
+    background-color: white;
+    border: none;
+    color: black;
+    font-weight: bolder;
+
+}
+
+body {
+    background-color: black;
+}
+
+body h1 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    color: var(--branco);
+}
+
+body .div1 {
+    display: flex;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+body .div1 .aulas:hover {
+    opacity: 70%;
+}
+body .div2 {
+    color: white;
+    background-color: rgb(51, 51, 51);
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    display: flex;
+}
+
+body .div2 .h2 {
+    padding-top: 15px;
+}
+
+body .a2 {
+    padding-left: 300px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+body .div2 button {
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 20px;
+    background-color: white;
+    border: none;
+    color: black;
+    font-weight: bolder;
+}
+
+body .div3 {
+    color: white;
+    display: flex;
+}
+
+body .div3 a {
+    color: white;
+}
+
+body .div3 .ul1 {
+    
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+body .div3 .ul2 {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+body .div3 .ul1 li {
+    padding-top: 10px;
+}
+
+body .div3 .ul2 li {
+    padding-top: 10px;
+}
+
+body .div3 .imagens {
+    display: flex;
+    gap: 40px;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+body .div3 .imagens img{
+    width: 30px;
+}
+
+body .div3 .imagens img:hover {
+    width: 30px;
+    transform: scale(1.2);
+}
